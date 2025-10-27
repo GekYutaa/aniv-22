@@ -260,29 +260,29 @@ function flipCard(card) {
 function createPhotoGallery() {
     const grid = document.getElementById('photosGrid');
     const photos = [
-        { title: 'Kenangan Pertama 💫', desc: 'Saat pertama kita bersama', url: 'pic/1.jpg' },
-{ title: 'Momen Bahagia 😊', desc: 'Tawa dan canda kita', url: 'pic/2.jpg' },
-{ title: 'Petualangan 🗺️', desc: 'Eksplorasi dunia bersama', url: 'pic/3.jpg' },
-{ title: 'Moment Romantis 🌙', desc: 'Di bawah bintang malam', url: 'pic/4.jpg' },
-{ title: 'Senyum Terindah ☺️', desc: 'Yang selalu membuatku jatuh cinta', url: 'pic/5.jpg' },
-{ title: 'Kebersamaan 👫', desc: 'Setiap detik berharga', url: 'pic/6.jpg' },
-{ title: 'Cinta Kita 💑', desc: 'Yang terus tumbuh', url: 'pic/7.jpg' },
-{ title: 'Kenangan Indah 📸', desc: 'Yang tak terlupakan', url: 'pic/8.jpg' },
-{ title: 'Masa Depan 🌈', desc: 'Yang akan kita bangun bersama', url: 'pic/9.jpg' },
-{ title: 'Selamanya 💖', desc: 'Kamu dan aku', url: 'pic/10.jpg' },
-{ title: 'Kebahagiaan 🎉', desc: 'Yang kita ciptakan', url: 'pic/11.jpg' },
-{ title: 'Forever & Always 💝', desc: 'Janji kita', url: 'pic/12.jpg' },
-{ title: 'Dekapan Hangat 🤗', desc: 'Tempat paling nyaman adalah pelukanmu', url: 'pic/13.jpg' },
-{ title: 'Langit Senja 🌅', desc: 'Indahnya seperti tatapanmu', url: 'pic/14.jpg' },
-{ title: 'Kisah Kita 📖', desc: 'Cerita yang tak akan pernah usai', url: 'pic/15.jpg' },
-{ title: 'Tatapan Pertama 👀', desc: 'Yang membuat jantungku berdebar', url: 'pic/16.jpg' },
-{ title: 'Hujan & Kenangan 🌧️', desc: 'Bersamamu, hujan pun terasa hangat', url: 'pic/17.jpg' },
-{ title: 'Langkah Bersama 🚶‍♀️🚶‍♂️', desc: 'Menapaki hari dengan cinta', url: 'pic/18.jpg' },
-{ title: 'Senyuman Pagi 🌞', desc: 'Alasan aku semangat setiap hari', url: 'pic/19.jpg' },
-{ title: 'Rindu Tak Berujung 💌', desc: 'Setiap detik tanpamu terasa lama', url: 'pic/20.jpg' },
-{ title: 'Pelangi Setelah Hujan 🌈', desc: 'Seperti kamu, datang membawa warna', url: 'pic/21.jpg' },
-{ title: 'Cinta Abadi 💞', desc: 'Untuk selamanya, hanya kamu', url: 'pic/22.jpg' }
-    ];
+        { title: 'Kenangan Pertama 💫', desc: 'Saat pertama kita bersama', url: 'https://drive.google.com/file/d/1P__ekLR7Fzbn3B5rHZHGv9WMvy5iL8EL/view?usp=sharing' },
+        { title: 'Momen Bahagia 😊', desc: 'Tawa dan canda kita', url: 'https://drive.google.com/file/d/1AAAp7iTGgZs60BObZuHV5h0KE8F6qKD7/view?usp=drive_link' },
+    { title: 'Petualangan 🗺️', desc: 'Eksplorasi dunia bersama', url: 'https://drive.google.com/file/d/1NTd51eKQWXALsbZFKDuh8XQgt75GElC0/view?usp=sharing' },
+    { title: 'Moment Romantis 🌙', desc: 'Di bawah bintang malam', url: 'https://drive.google.com/file/d/1vrCw7z9vitZDC9mVzsPRw8KWyXOtrpL1/view?usp=drive_link' },
+    { title: 'Senyum Terindah ☺️', desc: 'Yang selalu membuatku jatuh cinta', url: 'https://drive.google.com/file/d/1P0US8KuX8Wp2bStFX8TIVwnld30hBnuS/view?usp=drive_link' },
+    { title: 'Kebersamaan 👫', desc: 'Setiap detik berharga', url: 'https://drive.google.com/file/d/1f81lfpBT-JfcoWK0iybjTF3Pzhy7HKYG/view?usp=drive_link' },
+    { title: 'Cinta Kita 💑', desc: 'Yang terus tumbuh', url: 'https://drive.google.com/file/d/182Zt_tDFNMrQqPMiCihmiv9S5_ptCD17/view?usp=drive_link' },
+    { title: 'Kenangan Indah 📸', desc: 'Yang tak terlupakan', url: 'https://drive.google.com/file/d/1VMCuieA92sKg4wB6h-n6jQANJoGXSHu4/view?usp=drive_link' },
+    { title: 'Masa Depan 🌈', desc: 'Yang akan kita bangun bersama', url: 'https://drive.google.com/file/d/1q_RWEBs0UhMwnwYemcj28zUisoskHvRU/view?usp=drive_link' },
+    { title: 'Selamanya 💖', desc: 'Kamu dan aku', url: 'https://drive.google.com/file/d/13BteMOI4ZoxPBOIwDdSGCBhl5GuODCK-/view?usp=drive_link' },
+    { title: 'Kebahagiaan 🎉', desc: 'Yang kita ciptakan', url: 'https://drive.google.com/file/d/100xBTs-VYvflk9PwGwehfSXLj6lKzSEC/view?usp=drive_link' },
+    { title: 'Forever & Always 💝', desc: 'Janji kita', url: 'https://drive.google.com/file/d/1piEiDUxr1Amf70OzBVVTujOOP0iOWrjE/view?usp=drive_link' },
+    { title: 'Dekapan Hangat 🤗', desc: 'Tempat paling nyaman adalah pelukanmu', url: 'https://drive.google.com/file/d/19eNztUgtNzWe7EbpAcsz8yd9VsbdQEkz/view?usp=drive_link' },
+    { title: 'Langit Senja 🌅', desc: 'Indahnya seperti tatapanmu', url: 'https://drive.google.com/file/d/1S1kc6hxMujwQQmKnx2M2UIhybJpdT906/view?usp=drive_link' },
+    { title: 'Kisah Kita 📖', desc: 'Cerita yang tak akan pernah usai', url: 'https://drive.google.com/file/d/1G3VIXwBRXn9HfSayCh0ojdSXqdPL6yWU/view?usp=drive_link' },
+    { title: 'Tatapan Pertama 👀', desc: 'Yang membuat jantungku berdebar', url: 'https://drive.google.com/file/d/1SP-Ujhj3L9K1hGpeRFRFZK0Hoh4b4YPb/view?usp=drive_link' },
+    { title: 'Hujan & Kenangan 🌧️', desc: 'Bersamamu, hujan pun terasa hangat', url: 'https://drive.google.com/file/d/1fHFsrzC13__ThcrQspz02k_sgiWNl7-b/view?usp=drive_link' },
+    { title: 'Langkah Bersama 🚶‍♀️🚶‍♂️', desc: 'Menapaki hari dengan cinta', url: 'https://drive.google.com/file/d/1lY3Bw0jFDHyaZROEOpqlBMsejIzzESQ6/view?usp=drive_link' },
+    { title: 'Senyuman Pagi 🌞', desc: 'Alasan aku semangat setiap hari', url: 'https://drive.google.com/file/d/16GzgmTOiK-zj1lBf_3hRCZ8W5MCNMKOu/view?usp=drive_link' },
+    { title: 'Rindu Tak Berujung 💌', desc: 'Setiap detik tanpamu terasa lama', url: 'https://drive.google.com/file/d/1XJkc-ky1GKMKQCU5RaCBp0yvtkVrpF_U/view?usp=drive_link' },
+    { title: 'Pelangi Setelah Hujan 🌈', desc: 'Seperti kamu, datang membawa warna', url: 'https://drive.google.com/file/d/1MRZEhYiHQfYNWc30_p7GKsjvWL9EKmV4/view?usp=drive_link' },
+    { title: 'Cinta Abadi 💞', desc: 'Untuk selamanya, hanya kamu', url: 'https://drive.google.com/file/d/1l2eQv3_F7Ws1UNQhPlZEN2dpn9YTtWCY/view?usp=drive_link' }
+];  
 
     photos.forEach((photo) => {
         const card = document.createElement('div');
